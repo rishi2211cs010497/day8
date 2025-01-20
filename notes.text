@@ -1,0 +1,62 @@
+function:---
+- function is a building block of javascript.
+- function is a block of code. It is used to execute a specific task
+- function is a non primitive data type
+- function can be reusable
+
+syntax:- function function_name(optional parameters){ //function delete 
+// statements}
+
+types of functions
+1.named function: it is having a name and invoked 
+2.anonymus function: function that can be named with out function.but cannot be exceuted by itself
+3.function expression:
+4.immediate invoke function: it can be invoked only one tym
+5.arrow function name: it is introduced in es6 feature . it consize(reduce) the normal function sytax
+6.higher order function:
+7.call back function
+
+note: current version of javascript is es14
+es - ecma script
+ECMA - european computer manufacturing assocaition 
+- es6 feature is stable
+
+closure:- it is a memory created when functions are bundled together or nested each other by
+ giving acessabilty to the inner most function to access the varaiables of the outer most functions.
+
+ arrays:- 
+ - array can store multiple values in single varaible
+ - collections of items/values
+ - array can store homogenous values and hetrogenous values
+ syntax:- []
+
+methods in array:-
+- push() , pop() , unshift() , shift() , reverse() , join()
+concat()
+
+ what is object:-
+ - object is an ntt. the main purpose of an object is to store the values
+ - store the values in the form of key and value 
+ - it is a physical ntt 
+- java script is called object based language    
+
+what is difference between map and forEach methods
+map():- it is used to iterate the value
+        it returns to new copied array from the original array
+ForEach():- it is used to iterate the values
+            it returns "undefined"
+ 
+ create array of objects 
+what is object
+- it is an entity which contains states and behaviors
+- states - properties , behaviour - functionality
+- object is an entity to store the values in the form key and value pair
+
+note :- javascript is mainly object based language till 2015 (es6)
+- after es6 feature they added oops concept.
+
+syntax :- let obj = {};
+ex:- let userdetails ={
+     name: "Sam",
+     age:23
+    } 
