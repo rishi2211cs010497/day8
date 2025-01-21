@@ -60,3 +60,36 @@ ex:- let userdetails ={
      name: "Sam",
      age:23
     } 
+
+JSON :-
+- it stands for javascript object notation
+ 
+ sytax:-
+ js object:-
+ let a = {
+        name :"value",
+        age:25
+ }
+
+ json object:-
+ {
+        "name" :"sam"
+ }
+
+ json methods:-
+ - JSON.stringify() :- it is udes to convert JS object into JSON object
+ - JSON parse() :- it is used to convert JSON object into javascript object
+ 
+ note:- javascript is by default "Synchronous(single threaded)".
+
+ Asynchronous in javascript:-
+ - to perform multiple task at a time 
+
+ 1.setTimeout() :- it is web api used to perform asyn operations with certain time outs
+ 2.setIntervel() :- it is a web api used to perform asyn operation at a intervel of time
+ 3.promise :- it is an object which represents eventual completion or failures of asyn operations
+ states of promises:-
+        pending state
+        fulfilled state
+        rejected state
+ 4.async & await 

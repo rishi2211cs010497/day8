@@ -33,3 +33,15 @@
     //city:"Hyderabad"
 //};
 
+let userData = {
+  name:"Sathwik",
+  age:25,
+  city:"Karimnagar",
+};
+console.log(userData.name , typeof((userData)));
+
+let x = JSON.stringify(userData);
+console.log(x , typeof(x));
+
+let y = JSON.parse(x);
+console.log(y);
